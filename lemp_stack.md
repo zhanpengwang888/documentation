@@ -74,7 +74,7 @@ The URL above comes from the "Clone or download" button on Github. You will then
 - `$ git checkout <branch>` switch to an already-existing branch
 - `$ git checkout <commit-hash>` look at another commit (a previous "save"). The commit hash can be found with the `git log` command.
 - `$ git freeze`
-- `$ git stash`
+- `$ git stash`Temporarily stores all modified tracked files
 
 ## Step X: Install Project Requirements
 
