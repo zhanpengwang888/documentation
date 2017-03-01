@@ -127,7 +127,7 @@ These lines contain specifics for the application server hooking into the app.
 
     # Performance tuning
     processes = 4
-    threads = 2`
+    threads = 2
 
 The python plugin by default does not have threads enabled, so we enable threading support here. We can adjust these lines based on performance once the project is deployed.
 
