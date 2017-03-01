@@ -59,7 +59,7 @@ Note how the command line has changed to show that you are running in a virtual 
 All of our projects live on [Github](https://github.com/HCDigitalScholarship). Find the project that you're working on and click on the title.  This will open the repository (usually abbreviated as "repo"). Check the name of the branch and be sure that you're in the branch that you need.  Next, click on the "Clone or download" button.  A URL will appear.  Select and copy that address.
 
 Now, switch to a terminal window open on the server and type in the commands below. You can also `cd` into `/srv/www/`, `/srv/html/`, or `/var/www/` if you'd like. Whatever you choose, Git is going to create a folder there with the name of the repo and its project files.
-
+*** explain a little about srv directory***
     $ cd /srv/
     $ sudo git clone https://github.com/HCDigitalScholarship/project_name.git
 
@@ -73,7 +73,7 @@ The URL above comes from the "Clone or download" button on Github. You will then
 - `$ git checkout -b <branch>` create a new branch and switch to it
 - `$ git checkout <branch>` switch to an already-existing branch
 - `$ git checkout <commit-hash>` look at another commit (a previous "save"). The commit hash can be found with the `git log` command.
-- `$ git freeze`
+- `$ git freeze`Temporarily stores all modified tracked files
 - `$ git stash`
 
 ## Step X: Install Project Requirements
