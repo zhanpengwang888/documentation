@@ -79,7 +79,7 @@ The URL above comes from the "Clone or download" button on Github. You will then
 ## Step X: Install Project Requirements
 
     $ sudo pip install -r requirements.txt
-
+    *** cannot use sudo in a virtual machine to install requirement, has to go to root to install***
 Test the app to make sure all requirements are installed by running 
 
     $ python manage.py runserver
